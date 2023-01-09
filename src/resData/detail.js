@@ -9,7 +9,7 @@ module.exports = {
   class_room1: 5,
   class_item: {
     id: 5,
-    label: "五班",
+    label: "vue3",
   },
   createDate: ["2023-01-06", "2023-01-09 17:26:32"],
 };
