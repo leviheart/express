@@ -100,6 +100,16 @@ module.exports = {
       create_date: "2023-01-07 08:12:39",
       profession: "AI工程师",
     },
+    {
+      id: 11,
+      name: "chatGPT带动人工智能市场",
+      age: "45",
+      gender: "女",
+      phone: "",
+      email: "",
+      create_date: "2023-01-07 08:12:39",
+      profession: "AI工程师",
+    },
   ],
-  total: 70,
+  total: 11,
 };
