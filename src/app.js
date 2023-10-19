@@ -8,7 +8,7 @@ const app = express();
 // 通过post agent本地测试post接口，get接口可以在浏览器上打印
 const port = 3000;
 
-//测试git
+//测试git11111
 
 app.all("*", function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); //*表示可以跨域任何域名都行（包括直接存在本地的html文件）出于安全考虑最好只设置 你信任的来源也可以填域名表示只接受某个域名
