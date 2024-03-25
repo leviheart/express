@@ -23,13 +23,13 @@ const connection = mysql.createConnection({
   user: "root",
   port: "3306",
   password: "123456789wang",
-  database: "ezstudent2023",
-  // database: "vue-manage",
+  // database: "ezstudent2023",
+  database: "vue-manage",
   // database: "db1",
 });
 let data2 = null;
-let TableNmae = "SELECT * FROM student"
-// let TableNmae = "SELECT * FROM album";
+// let TableNmae = "SELECT * FROM student";
+let TableNmae = "SELECT * FROM album";
 // let TableNmae = "SELECT * FROM grade";
 
 connection.query(TableNmae, function (error, results, fields) {
